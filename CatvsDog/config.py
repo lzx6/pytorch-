@@ -8,8 +8,8 @@
 class Config():
     model = 'SqueezeNet'  # 使用的模型，名字必须与models/__init__.py中的名字一致
 
-    train_root = 'F:/刘子绪/数据/数据image/kaggle/train/train/'
-    test_root = 'F:/刘子绪/数据/数据image/kaggle/test1/test1/'
+    train_root = 'F:/数据/数据image/kaggle/train/train/'
+    test_root = 'F:/数据/数据image/kaggle/test1/test1/'
     load_model_path = 'checkpoints/squeezenet_0313_21_53_57.pth'  # 加载预训练的模型的路径，为None代表不加载
 
     batch_size = 32  # batch size
