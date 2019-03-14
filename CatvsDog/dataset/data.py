@@ -11,8 +11,8 @@ from torch.utils import data
 import numpy as np
 from torchvision import transforms
 
-train_root = 'F:/刘子绪/数据/数据image/kaggle/train/train/'
-test_root = 'F:/刘子绪/数据/数据image/kaggle/test1/test1/'
+train_root = 'F:/数据/数据image/kaggle/train/train/'
+test_root = 'F:/数据/数据image/kaggle/test1/test1/'
 class CatDog(data.Dataset):
     def __init__(self,root,transform=None,train=True,test=False):
         '''
